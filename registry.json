@@ -5,11 +5,11 @@
     {
       "id": "web-devkit",
       "name": "Web DevKit",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure.",
       "author": "Config Studio Team",
       "icon": "🌐",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.2.0/web-devkit.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.2.1/web-devkit.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-web-devkit",
       "official": true,
       "locales": {
