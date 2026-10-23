@@ -32,11 +32,11 @@
     {
       "id": "remote-agent",
       "name": "Remote Server Agent",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Manage and seamlessly switch between remote servers (VPS, host instances) directly from the editor header.",
       "author": "Config Studio Team",
       "icon": "🖥️",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/download/v1.2.0/remote-agent.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/download/v1.2.1/remote-agent.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-remote-agent",
       "official": true,
       "locales": {
