@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-24T00:25:00Z",
+  "updatedAt": "2026-10-24T00:45:00Z",
   "plugins": [
     {
       "id": "web-devkit",
@@ -9,7 +9,7 @@
       "description": "Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure.",
       "author": "Config Studio Team",
       "icon": "🌐",
-      "downloadUrl": "https://raw.githubusercontent.com/EdvardBaldanov/config-studio-plugins/main/packages/web-devkit-1.2.0.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.2.0/web-devkit.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-web-devkit",
       "official": true,
       "locales": {
@@ -32,11 +32,11 @@
     {
       "id": "remote-agent",
       "name": "Remote Server Agent",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Manage and seamlessly switch between remote servers (VPS, host instances) directly from the editor header.",
       "author": "Config Studio Team",
       "icon": "🖥️",
-      "downloadUrl": "https://raw.githubusercontent.com/EdvardBaldanov/config-studio-plugins/main/packages/remote-agent-1.1.0.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/download/v1.2.0/remote-agent.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-remote-agent",
       "official": true,
       "locales": {
@@ -63,7 +63,7 @@
       "description": "Complete English UI localization for Config Studio 🇬🇧.",
       "author": "Edvard Baldanov",
       "icon": "🇬🇧",
-      "downloadUrl": "https://raw.githubusercontent.com/EdvardBaldanov/config-studio-plugins/main/packages/lang-en-1.0.0.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-en/releases/download/v1.0.0/lang-en.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-en",
       "official": true,
       "locales": {
@@ -89,7 +89,7 @@
       "description": "Полная русская локализация интерфейса Config Studio 🇷🇺.",
       "author": "Edvard Baldanov",
       "icon": "🇷🇺",
-      "downloadUrl": "https://raw.githubusercontent.com/EdvardBaldanov/config-studio-plugins/main/packages/lang-ru-1.0.0.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-ru/releases/download/v1.0.0/lang-ru.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-ru",
       "official": true,
       "locales": {
@@ -115,7 +115,7 @@
       "description": "Deutsche Lokalisierung für die gesamte Benutzeroberfläche von Config Studio 🇩🇪.",
       "author": "Edvard Baldanov",
       "icon": "🇩🇪",
-      "downloadUrl": "https://raw.githubusercontent.com/EdvardBaldanov/config-studio-plugins/main/packages/lang-de-1.0.0.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-de/releases/download/v1.0.0/lang-de.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-de",
       "official": true,
       "locales": {
