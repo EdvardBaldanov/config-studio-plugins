@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Config Studio — Каталог расширений (Plugins Registry)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #0f111a; color: #e2e8f0; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .accent-border { border-color: rgba(0, 210, 180, 0.3); }
+    .accent-glow { box-shadow: 0 0 25px rgba(0, 210, 180, 0.15); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col p-6 max-w-5xl mx-auto">
+  <!-- Header -->
+  <header class="flex flex-col md:flex-row md:items-center justify-between pb-8 border-b border-gray-800 gap-4">
+    <div>
+      <div class="flex items-center space-x-3">
+        <span class="text-3xl">🧩</span>
+        <h1 class="text-2xl font-bold text-white tracking-tight">Config Studio Plugins</h1>
+        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+          Official Registry
+        </span>
+      </div>
+      <p class="text-sm text-gray-400 mt-1">Официальный реестр модулей и языковых пакетов для Config Studio</p>
+    </div>
+    <div class="flex items-center gap-3 text-xs font-medium">
+      <a href="https://github.com/EdvardBaldanov/config-studio" target="_blank" class="px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-200 transition flex items-center gap-1.5 border border-gray-700">
+        <span>⭐ Редактор</span>
+      </a>
+      <a href="https://github.com/EdvardBaldanov/config-studio-plugin-docs" target="_blank" class="px-4 py-2 rounded-xl bg-teal-500/10 hover:bg-teal-500/20 text-teal-300 border border-teal-500/30 transition flex items-center gap-1.5">
+        <span>📚 Документация API</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Notice -->
+  <div class="my-6 p-4 rounded-2xl bg-teal-500/10 border border-teal-500/20 text-xs text-teal-200 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <span class="text-base">🚀</span>
+      <span>Редактор Config Studio синхронизирует этот каталог в реальном времени без пересборки приложения.</span>
+    </div>
+    <code class="px-2.5 py-1 bg-black/40 rounded-lg text-teal-400 font-mono text-[11px]">registry.json</code>
+  </div>
+
+  <!-- Cards Grid -->
+  <main class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
+    <!-- Web DevKit -->
+    <div class="p-5 rounded-2xl bg-[#181a24] border border-gray-800 hover:border-teal-500/40 transition flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🌐</span>
+            <h3 class="font-bold text-white text-base">Web DevKit</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-gray-800 text-gray-300 font-mono">v1.2.0</span>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Official</span>
+        </div>
+        <p class="text-xs text-gray-400 leading-relaxed mt-2">Живой Split-Screen предпросмотр HTML/PHP с симуляцией браузера Chrome, сервер :8085 и AST-структура.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">HTML5</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">PHP</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">Live Preview</span>
+        </div>
+      </div>
+      <div class="pt-4 mt-4 border-t border-gray-800 flex items-center justify-between text-xs">
+        <span class="text-gray-500">ID: web-devkit</span>
+        <a href="https://github.com/EdvardBaldanov/config-studio-web-devkit" target="_blank" class="text-teal-400 hover:underline font-medium">Репозиторий →</a>
+      </div>
+    </div>
+
+    <!-- Remote Server Agent -->
+    <div class="p-5 rounded-2xl bg-[#181a24] border border-gray-800 hover:border-teal-500/40 transition flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🖥️</span>
+            <h3 class="font-bold text-white text-base">Remote Server Agent</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-gray-800 text-gray-300 font-mono">v1.1.0</span>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Official</span>
+        </div>
+        <p class="text-xs text-gray-400 leading-relaxed mt-2">Управление парком удаленных серверов (VPS, хосты) и мгновенное переключение между ними из шапки редактора.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">Multi-Server</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">VPS</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">Fleet</span>
+        </div>
+      </div>
+      <div class="pt-4 mt-4 border-t border-gray-800 flex items-center justify-between text-xs">
+        <span class="text-gray-500">ID: remote-agent</span>
+        <a href="https://github.com/EdvardBaldanov/config-studio-remote-agent" target="_blank" class="text-teal-400 hover:underline font-medium">Репозиторий →</a>
+      </div>
+    </div>
+
+    <!-- English Language Pack -->
+    <div class="p-5 rounded-2xl bg-[#181a24] border border-gray-800 hover:border-teal-500/40 transition flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🇬🇧</span>
+            <h3 class="font-bold text-white text-base">English Language Pack</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-gray-800 text-gray-300 font-mono">v1.0.0</span>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/30">Language</span>
+        </div>
+        <p class="text-xs text-gray-400 leading-relaxed mt-2">Полная локализация интерфейса Config Studio на английский язык для русской редакции редактора.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">English</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">UI Pack</span>
+        </div>
+      </div>
+      <div class="pt-4 mt-4 border-t border-gray-800 flex items-center justify-between text-xs">
+        <span class="text-gray-500">ID: lang-en</span>
+        <a href="https://github.com/EdvardBaldanov/config-studio-lang-en" target="_blank" class="text-teal-400 hover:underline font-medium">Репозиторий →</a>
+      </div>
+    </div>
+
+    <!-- Russian Language Pack -->
+    <div class="p-5 rounded-2xl bg-[#181a24] border border-gray-800 hover:border-teal-500/40 transition flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🇷🇺</span>
+            <h3 class="font-bold text-white text-base">Русский языковой пакет</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-gray-800 text-gray-300 font-mono">v1.0.0</span>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/30">Language</span>
+        </div>
+        <p class="text-xs text-gray-400 leading-relaxed mt-2">Полная локализация интерфейса Config Studio на русский язык для английской редакции редактора.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">Russian</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-gray-800/80 text-gray-300 font-mono">UI Pack</span>
+        </div>
+      </div>
+      <div class="pt-4 mt-4 border-t border-gray-800 flex items-center justify-between text-xs">
+        <span class="text-gray-500">ID: lang-ru</span>
+        <a href="https://github.com/EdvardBaldanov/config-studio-lang-ru" target="_blank" class="text-teal-400 hover:underline font-medium">Репозиторий →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-8 pt-4 border-t border-gray-800 text-center text-xs text-gray-500">
+    Config Studio Plugin Registry © 2026 Edvard Baldanov • Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
