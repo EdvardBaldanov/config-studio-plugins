@@ -4,22 +4,22 @@
   "plugins": [
     {
       "id": "web-devkit",
-      "name": "Web DevKit",
-      "version": "1.2.1",
-      "description": "Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure.",
+      "name": "Web DevKit v1.3.1",
+      "version": "1.3.1",
+      "description": "v1.3.1 — Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure.",
       "author": "Config Studio Team",
       "icon": "🌐",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.2.1/web-devkit.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.3.1/web-devkit.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-web-devkit",
       "official": true,
       "locales": {
         "ru": {
-          "name": "Web DevKit",
-          "description": "Живой Split-Screen предпросмотр HTML/PHP с симуляцией вкладки Chrome, веб-сервер :8085 и AST-структура."
+          "name": "Web DevKit v1.3.1",
+          "description": "v1.3.1 — Живой Split-Screen предпросмотр HTML/PHP с симуляцией вкладки Chrome, веб-сервер :8085 и AST-структура."
         },
         "en": {
-          "name": "Web DevKit",
-          "description": "Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure."
+          "name": "Web DevKit v1.3.1",
+          "description": "v1.3.1 — Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure."
         }
       },
       "tags": [
