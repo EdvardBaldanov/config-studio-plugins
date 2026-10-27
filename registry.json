@@ -1,25 +1,25 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-24T00:45:00Z",
+  "updatedAt": "2026-10-27T15:19:01.623Z",
   "plugins": [
     {
       "id": "web-devkit",
       "name": "Web DevKit v1.3.1",
       "version": "1.3.1",
-      "description": "v1.3.1 — Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure.",
+      "description": "HTML & PHP Live Preview с симуляцией вкладки Chrome, сервер :8085, AST-структура и автодополнение",
       "author": "Config Studio Team",
       "icon": "🌐",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/download/v1.3.1/web-devkit.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-web-devkit/releases/latest/download/web-devkit.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-web-devkit",
       "official": true,
       "locales": {
         "ru": {
           "name": "Web DevKit v1.3.1",
-          "description": "v1.3.1 — Живой Split-Screen предпросмотр HTML/PHP с симуляцией вкладки Chrome, веб-сервер :8085 и AST-структура."
+          "description": "Живой предпросмотр HTML/PHP с вкладкой браузера Chrome, веб-сервер :8085, AST-структура и автодополнение Monaco"
         },
         "en": {
           "name": "Web DevKit v1.3.1",
-          "description": "v1.3.1 — Live Split-Screen preview for HTML/PHP with Chrome browser tab simulation, :8085 server, and AST structure."
+          "description": "HTML & PHP Live Preview with Chrome browser tab simulation, :8085 server, AST structure, and Monaco completions"
         }
       },
       "tags": [
@@ -33,20 +33,32 @@
       "id": "remote-agent",
       "name": "Remote Server Agent",
       "version": "1.2.1",
-      "description": "Manage and seamlessly switch between remote servers (VPS, host instances) directly from the editor header.",
+      "description": "Manage, switch, and edit files across remote servers directly from one UI",
       "author": "Config Studio Team",
       "icon": "🖥️",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/download/v1.2.1/remote-agent.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/latest/download/remote-agent.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-remote-agent",
       "official": true,
       "locales": {
         "ru": {
-          "name": "Remote Server Agent",
-          "description": "Управление парком удаленных серверов (VPS, хосты) и мгновенное переключение между ними из шапки редактора."
+          "name": "Удаленный агент серверов",
+          "description": "Управление, переключение и редактирование файлов на удаленных серверах из единого интерфейса",
+          "localhost": "🖥️ Localhost (Хост)",
+          "addServer": "➕ Добавить сервер...",
+          "promptName": "Название сервера (например, Debian VPS):",
+          "promptUrl": "URL удаленного агента (например, http://192.168.1.100:8080):",
+          "promptToken": "API ключ или токен (если включена авторизация, иначе оставьте пустым):",
+          "serverAdded": "Сервер {name} добавлен в список!"
         },
         "en": {
           "name": "Remote Server Agent",
-          "description": "Manage and seamlessly switch between remote servers (VPS, host instances) directly from the editor header."
+          "description": "Manage, switch, and edit files across remote servers directly from one UI",
+          "localhost": "🖥️ Localhost (Host)",
+          "addServer": "➕ Add server...",
+          "promptName": "Server name (e.g. Debian VPS):",
+          "promptUrl": "Remote agent URL (e.g. http://192.168.1.100:8080):",
+          "promptToken": "API key or token (if auth enabled, otherwise leave blank):",
+          "serverAdded": "Server {name} added to list!"
         }
       },
       "tags": [
@@ -60,20 +72,20 @@
       "id": "lang-en",
       "name": "English Language Pack",
       "version": "1.0.0",
-      "description": "Complete English UI localization for Config Studio 🇬🇧.",
+      "description": "Full English localization for Config Studio UI 🇬🇧",
       "author": "Edvard Baldanov",
       "icon": "🇬🇧",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-en/releases/download/v1.0.0/lang-en.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-en/releases/latest/download/lang-en.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-en",
       "official": true,
       "locales": {
         "ru": {
           "name": "Английский языковой пакет",
-          "description": "Полная локализация интерфейса Config Studio на английский язык 🇬🇧."
+          "description": "Полная английская локализация интерфейса Config Studio 🇬🇧"
         },
         "en": {
           "name": "English Language Pack",
-          "description": "Complete English UI localization for Config Studio 🇬🇧."
+          "description": "Full English localization for Config Studio UI 🇬🇧"
         }
       },
       "tags": [
@@ -86,20 +98,20 @@
       "id": "lang-ru",
       "name": "Русский языковой пакет",
       "version": "1.0.0",
-      "description": "Полная русская локализация интерфейса Config Studio 🇷🇺.",
+      "description": "Полная русская локализация интерфейса Config Studio 🇷🇺",
       "author": "Edvard Baldanov",
       "icon": "🇷🇺",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-ru/releases/download/v1.0.0/lang-ru.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-ru/releases/latest/download/lang-ru.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-ru",
       "official": true,
       "locales": {
         "ru": {
           "name": "Русский языковой пакет",
-          "description": "Полная русская локализация интерфейса Config Studio 🇷🇺."
+          "description": "Полная русская локализация интерфейса Config Studio 🇷🇺"
         },
         "en": {
           "name": "Russian Language Pack",
-          "description": "Complete Russian UI localization for Config Studio 🇷🇺."
+          "description": "Full Russian localization for Config Studio UI 🇷🇺"
         }
       },
       "tags": [
@@ -110,26 +122,26 @@
     },
     {
       "id": "lang-de",
-      "name": "Deutsch Sprachpaket",
+      "name": "German Language Pack",
       "version": "1.0.0",
-      "description": "Deutsche Lokalisierung für die gesamte Benutzeroberfläche von Config Studio 🇩🇪.",
+      "description": "Deutsche Benutzeroberfläche für Config Studio",
       "author": "Edvard Baldanov",
       "icon": "🇩🇪",
-      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-de/releases/download/v1.0.0/lang-de.cspkg",
+      "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-lang-de/releases/latest/download/lang-de.cspkg",
       "homepage": "https://github.com/EdvardBaldanov/config-studio-lang-de",
       "official": true,
       "locales": {
         "ru": {
           "name": "Немецкий языковой пакет",
-          "description": "Полная локализация интерфейса Config Studio на немецкий язык (German UI Language Pack) 🇩🇪."
+          "description": "Полная локализация интерфейса Config Studio на немецкий язык (Deutsch)"
         },
         "en": {
           "name": "German Language Pack",
-          "description": "Complete German UI localization for Config Studio 🇩🇪."
+          "description": "Complete German UI localization for Config Studio"
         },
         "de": {
-          "name": "Deutsch Sprachpaket",
-          "description": "Deutsche Lokalisierung für die gesamte Benutzeroberfläche von Config Studio 🇩🇪."
+          "name": "Deutsches Sprachpaket",
+          "description": "Vollständige deutsche Benutzeroberfläche für Config Studio"
         }
       },
       "tags": [
