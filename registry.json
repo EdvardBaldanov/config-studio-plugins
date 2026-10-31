@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-31T12:02:20.551Z",
+  "updatedAt": "2026-11-01T01:17:00.000Z",
   "plugins": [
     {
       "id": "web-devkit",
@@ -31,9 +31,9 @@
     },
     {
       "id": "remote-agent",
-      "name": "Remote Server Agent",
-      "version": "1.2.1",
-      "description": "Manage, switch, and edit files across remote servers directly from one UI",
+      "name": "Remote Server Agent v2.0",
+      "version": "2.0.0",
+      "description": "Управление парком удаленных серверов (VPS, хосты), двухсоставная TOTP авторизация и переключение между ними из шапки редактора",
       "author": "Config Studio Team",
       "icon": "🖥️",
       "downloadUrl": "https://github.com/EdvardBaldanov/config-studio-remote-agent/releases/latest/download/remote-agent.cspkg",
@@ -41,31 +41,21 @@
       "official": true,
       "locales": {
         "ru": {
-          "name": "Удаленный агент серверов",
-          "description": "Управление, переключение и редактирование файлов на удаленных серверах из единого интерфейса",
-          "localhost": "🖥️ Localhost (Хост)",
-          "addServer": "➕ Добавить сервер...",
-          "promptName": "Название сервера (например, Debian VPS):",
-          "promptUrl": "URL удаленного агента (например, http://192.168.1.100:8080):",
-          "promptToken": "API ключ или токен (если включена авторизация, иначе оставьте пустым):",
-          "serverAdded": "Сервер {name} добавлен в список!"
+          "name": "Удаленный агент серверов v2.0",
+          "description": "Управление парком удаленных серверов, безопасная TOTP авторизация и мгновенное переключение между ними из шапки редактора"
         },
         "en": {
-          "name": "Remote Server Agent",
-          "description": "Manage, switch, and edit files across remote servers directly from one UI",
-          "localhost": "🖥️ Localhost (Host)",
-          "addServer": "➕ Add server...",
-          "promptName": "Server name (e.g. Debian VPS):",
-          "promptUrl": "Remote agent URL (e.g. http://192.168.1.100:8080):",
-          "promptToken": "API key or token (if auth enabled, otherwise leave blank):",
-          "serverAdded": "Server {name} added to list!"
+          "name": "Remote Server Agent v2.0",
+          "description": "Manage fleet of remote servers, secure two-tier TOTP authorization and instant switching directly from the header"
         }
       },
       "tags": [
         "Multi-Server",
         "VPS",
         "Agent",
-        "Remote"
+        "Remote",
+        "Security",
+        "TOTP"
       ]
     },
     {
