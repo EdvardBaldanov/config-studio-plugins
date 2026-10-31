@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-11-01T01:17:00.000Z",
+  "updatedAt": "2026-10-31T21:18:39.610Z",
   "plugins": [
     {
       "id": "web-devkit",
@@ -42,11 +42,55 @@
       "locales": {
         "ru": {
           "name": "Удаленный агент серверов v2.0",
-          "description": "Управление парком удаленных серверов, безопасная TOTP авторизация и мгновенное переключение между ними из шапки редактора"
+          "description": "Управление парком удаленных серверов, безопасная TOTP авторизация и мгновенное переключение между ними из шапки редактора",
+          "localhost": "🖥️ Localhost (Хост)",
+          "addServer": "➕ Добавить сервер...",
+          "manageTokens": "🛡️ Токены мониторинга...",
+          "modalTitleAdd": "Подключение удаленного сервера",
+          "modalTitleEdit": "Настройка удаленного сервера",
+          "nameLabel": "Название сервера",
+          "namePlaceholder": "Например: Production Debian VPS",
+          "urlLabel": "URL агента",
+          "urlPlaceholder": "Например: http://192.168.1.100:8085",
+          "keyLabel": "Мастер-ключ ID (Key ID)",
+          "keyPlaceholder": "cs_master_...",
+          "secretLabel": "TOTP Секрет (Base32)",
+          "secretPlaceholder": "Секрет из agent.yaml на удаленном сервере",
+          "enableRwLabel": "Включить полный доступ (RW) через динамический TOTP",
+          "testPing": "⚡ Проверить связь",
+          "pingTesting": "Проверка подключения...",
+          "cancel": "Отмена",
+          "save": "Сохранить",
+          "delete": "Удалить",
+          "serverAdded": "Сервер {name} успешно подключен!",
+          "serverUpdated": "Настройки сервера {name} обновлены",
+          "serverDeleted": "Сервер удален из списка"
         },
         "en": {
           "name": "Remote Server Agent v2.0",
-          "description": "Manage fleet of remote servers, secure two-tier TOTP authorization and instant switching directly from the header"
+          "description": "Manage fleet of remote servers, secure two-tier TOTP authorization and instant switching directly from the header",
+          "localhost": "🖥️ Localhost (Host)",
+          "addServer": "➕ Add server...",
+          "manageTokens": "🛡️ Monitoring tokens...",
+          "modalTitleAdd": "Connect Remote Server",
+          "modalTitleEdit": "Edit Remote Server",
+          "nameLabel": "Server Name",
+          "namePlaceholder": "E.g. Production Debian VPS",
+          "urlLabel": "Agent URL",
+          "urlPlaceholder": "E.g. http://192.168.1.100:8085",
+          "keyLabel": "Master Key ID",
+          "keyPlaceholder": "cs_master_...",
+          "secretLabel": "TOTP Secret (Base32)",
+          "secretPlaceholder": "Secret from agent.yaml on remote server",
+          "enableRwLabel": "Enable Read-Write access (RW) via dynamic TOTP",
+          "testPing": "⚡ Test Connection",
+          "pingTesting": "Checking connection...",
+          "cancel": "Cancel",
+          "save": "Save",
+          "delete": "Delete",
+          "serverAdded": "Server {name} connected successfully!",
+          "serverUpdated": "Server {name} settings updated",
+          "serverDeleted": "Server removed from list"
         }
       },
       "tags": [
